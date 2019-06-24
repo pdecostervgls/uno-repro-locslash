@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="LocSlashRepro.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LocSlashRepro"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:tk="Uno.UI.Toolkit"
+    mc:Ignorable="d">
+
+    <StackPanel tk:VisibleBoundsPadding.PaddingMask="All" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Uid="/Main/textBoxOne" Margin="20" Text="This text doesn't come from the localization." />
+        <TextBlock x:Uid="/Main/test/textBoxTwo" Margin="20" Text="This text doesn't come from the localization." />
+    </StackPanel>
+</Page>
